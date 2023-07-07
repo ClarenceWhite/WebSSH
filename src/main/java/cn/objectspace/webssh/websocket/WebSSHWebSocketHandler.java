@@ -9,11 +9,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.socket.*;
 
 
-/**
-* @Description: WebSSH的WebSocket处理器
-* @Author: NoCortY
-* @Date: 2020/3/8
-*/
 @Component
 public class WebSSHWebSocketHandler implements WebSocketHandler{
     @Autowired
